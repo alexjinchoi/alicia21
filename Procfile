@@ -1,0 +1,1 @@
+web: gunicorn blankslate.wsgi --log-level=info --log-file -
