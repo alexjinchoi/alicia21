@@ -10,6 +10,8 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.8/ref/settings/
 """
 
+from settings_secret import *
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
 
@@ -29,9 +31,6 @@ DATABASES['default'] = dj_database_url.config(conn_max_age=600)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'h+)7b)m2e_u^j2z!amo=-61$*1j^0*xnvz&0e0iu+o)cy+lbu+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
