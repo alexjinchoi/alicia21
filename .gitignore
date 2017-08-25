@@ -2,4 +2,3 @@ __pycache__
 *.py[cod]
 venv/
 *.sqlite3
-.envblankslate/settings_secret.py
