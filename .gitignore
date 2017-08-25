@@ -1,1 +1,5 @@
-blankslate/settings_secret.py
+__pycache__
+*.py[cod]
+venv/
+*.sqlite3
+.envblankslate/settings_secret.py
