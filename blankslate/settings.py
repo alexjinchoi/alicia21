@@ -34,7 +34,7 @@ DATABASES['default'] = dj_database_url.config(conn_max_age=600)
 SECRET_KEY = 'h+)7b)m2e_u^j2z!amo=-61$*1j^0*xnvz&0e0iu+o)cy+lbu+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['alicia21.herokuapp.com']
 
