@@ -36,7 +36,7 @@ SECRET_KEY = 'h+)7b)m2e_u^j2z!amo=-61$*1j^0*xnvz&0e0iu+o)cy+lbu+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['117.52.74.164', '0.0.0.0', 'alicia21.herokuapp.com']
+ALLOWED_HOSTS = ['alicia21.herokuapp.com']
 
 
 # Application definition
